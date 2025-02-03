@@ -1,0 +1,3 @@
+[console_scripts]
+face_detector = ar_hw1.face_detector:main
+
