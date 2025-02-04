@@ -13,7 +13,8 @@ class FaceDetector(Node):
         super().__init__('ar_hw1') # your ros node
         self.mutex = Lock()
         self.bridge = CvBridge() # open-cv bridge
-        self.topic = '/camera1/image_raw'
+        # self.topic = '/camera1/image_raw'
+        self.topic = '/usb_cam/image_raw'
         self.subscription = self.create_subscription(Image, self.topic, self.image_callback, 1) 
         self.publisher = self.create_publisher(Image, '/output/image', 1)
         self.original = None
