@@ -99,6 +99,8 @@ e.g.
 
 `ros2 topic list`
 
+`ros2 run turtlesim turtlesim_node`
+
 ### Turn on the usb_cam
 `ros2 launch usb_cam camera.launch.py`
 
