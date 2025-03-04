@@ -1,32 +1,55 @@
-Main-folder
-    - Project folder
-        - package (src) folder
 
-HW1
-- ar_hw1
-    - ar_hw1
+# Folder Structure
+# -------------------------------------------
+Root 
+    Project 
+        Build 
+        Workspace (src) 
+            Package 
+                Node 
 
-# create a package while in the Main folder
+
+# Folder Structure Example
+# ---------------------------------------------
+AutonomousRobots 
+    HW3 (Project)
+        Build 
+        src (workspace packages)
+            ar_hw3 (package)
+                package.xml
+                setup.cfg
+                setup.py
+                license
+
+                turtle_spiral (Node)
+                    init.py
+                    turtle_spiral.py
+
+# ---------------------------------------------
+
+# Create the Root, Project and Workspace folders, src is the standard workspace name
+cd <root-folder>
+mkdir -p /<project_folder_name>/src
+
+# create a package while in the Workspace src folder
 ros2 pkg create --build-type ament_python --license Apache-2.0 <desired-package-name>
 
-# Add your source code next to the __init__.py file in /pkg_name/pkg_name
+# Add your Node code next to the __init__.py file in /package_name/package_name
 
-# adde dpendencies from code to package.xml
-<exec_depend>[name_of_dependency]<exec_depend>
+# add dpendencies from code to package.xml
+<depend>[name_of_dependency]<depend>
 # e.g. 
 <depend>std_msgs</depend>
 
 # add entry points to setup.py
-'<name> = node-name.file-name:function-name'
+'<common_name> = package_name.node_file_name:function_name'
 # e.g. 
-'face_detector = ar_hw1.face_detector:main',
+'turtle_spiral = ar_hw3.turtle_spiral:main',
 
 # check setup.cfg and see if there are any errors
 
 # download dependencies at the project folder 
-rosdep install -i --from-path <src-folder> --rosdistro humble -y
-# e.g.
-rosdep install -i --from-path ar_hw3 --rosdistro humble -y
+rosdep install -i --from-path src --rosdistro humble -y
 
 # Build your package
 colcon build --packages-select <package_name>
@@ -41,6 +64,6 @@ cd <project-name>
 source install/setup.bash
 
 # run the node
-ros2 run <node-name> <node-instance-name>
+ros2 run <package_name> <node_file_name>
 #e.g.  
 ros2 run ar_hw3 turtle_spiral
