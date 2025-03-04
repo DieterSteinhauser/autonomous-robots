@@ -1,0 +1,46 @@
+Main-folder
+    - Project folder
+        - package (src) folder
+
+HW1
+- ar_hw1
+    - ar_hw1
+
+# create a package while in the Main folder
+ros2 pkg create --build-type ament_python --license Apache-2.0 <desired-package-name>
+
+# Add your source code next to the __init__.py file in /pkg_name/pkg_name
+
+# adde dpendencies from code to package.xml
+<exec_depend>[name_of_dependency]<exec_depend>
+# e.g. 
+<depend>std_msgs</depend>
+
+# add entry points to setup.py
+'<name> = node-name.file-name:function-name'
+# e.g. 
+'face_detector = ar_hw1.face_detector:main',
+
+# check setup.cfg and see if there are any errors
+
+# download dependencies at the project folder 
+rosdep install -i --from-path <src-folder> --rosdistro humble -y
+# e.g.
+rosdep install -i --from-path ar_hw3 --rosdistro humble -y
+
+# Build your package
+colcon build --packages-select <package_name>
+
+# ---------------------------------------------
+# To use the package in the terminal after building
+
+# Navigate to the project directory
+cd <project-name>
+
+# source package
+source install/setup.bash
+
+# run the node
+ros2 run <node-name> <node-instance-name>
+#e.g.  
+ros2 run ar_hw3 turtle_spiral

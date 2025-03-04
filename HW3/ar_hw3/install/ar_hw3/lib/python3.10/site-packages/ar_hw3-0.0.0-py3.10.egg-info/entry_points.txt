@@ -1,0 +1,4 @@
+[console_scripts]
+turtle_circle = ar_hw3.turtle_circle:main
+turtle_spiral = ar_hw3.turtle_spiral:main
+
