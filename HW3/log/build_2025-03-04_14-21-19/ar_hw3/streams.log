@@ -1,0 +1,42 @@
+[1.011s] Invoking command in '/home/boole/autonomous-robots/HW3/src/ar_hw3': PYTHONPATH=/home/boole/autonomous-robots/HW3/build/ar_hw3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/boole/autonomous-robots/HW3/install/ar_hw3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ar_hw3 build --build-base /home/boole/autonomous-robots/HW3/build/ar_hw3/build install --record /home/boole/autonomous-robots/HW3/build/ar_hw3/install.log --single-version-externally-managed install_data
+[1.414s] running egg_info
+[1.415s] creating ../../build/ar_hw3/ar_hw3.egg-info
+[1.416s] writing ../../build/ar_hw3/ar_hw3.egg-info/PKG-INFO
+[1.416s] writing dependency_links to ../../build/ar_hw3/ar_hw3.egg-info/dependency_links.txt
+[1.416s] writing entry points to ../../build/ar_hw3/ar_hw3.egg-info/entry_points.txt
+[1.416s] writing requirements to ../../build/ar_hw3/ar_hw3.egg-info/requires.txt
+[1.416s] writing top-level names to ../../build/ar_hw3/ar_hw3.egg-info/top_level.txt
+[1.417s] writing manifest file '../../build/ar_hw3/ar_hw3.egg-info/SOURCES.txt'
+[1.422s] reading manifest file '../../build/ar_hw3/ar_hw3.egg-info/SOURCES.txt'
+[1.422s] adding license file 'LICENSE'
+[1.422s] writing manifest file '../../build/ar_hw3/ar_hw3.egg-info/SOURCES.txt'
+[1.422s] running build
+[1.422s] running build_py
+[1.423s] creating /home/boole/autonomous-robots/HW3/build/ar_hw3/build
+[1.423s] creating /home/boole/autonomous-robots/HW3/build/ar_hw3/build/lib
+[1.423s] creating /home/boole/autonomous-robots/HW3/build/ar_hw3/build/lib/ar_hw3
+[1.424s] copying ar_hw3/turtle_spiral.py -> /home/boole/autonomous-robots/HW3/build/ar_hw3/build/lib/ar_hw3
+[1.424s] copying ar_hw3/turtle_circle.py -> /home/boole/autonomous-robots/HW3/build/ar_hw3/build/lib/ar_hw3
+[1.424s] copying ar_hw3/__init__.py -> /home/boole/autonomous-robots/HW3/build/ar_hw3/build/lib/ar_hw3
+[1.425s] running install
+[1.425s] running install_lib
+[1.426s] creating /home/boole/autonomous-robots/HW3/install/ar_hw3/lib/python3.10/site-packages/ar_hw3
+[1.427s] copying /home/boole/autonomous-robots/HW3/build/ar_hw3/build/lib/ar_hw3/turtle_spiral.py -> /home/boole/autonomous-robots/HW3/install/ar_hw3/lib/python3.10/site-packages/ar_hw3
+[1.427s] copying /home/boole/autonomous-robots/HW3/build/ar_hw3/build/lib/ar_hw3/turtle_circle.py -> /home/boole/autonomous-robots/HW3/install/ar_hw3/lib/python3.10/site-packages/ar_hw3
+[1.427s] copying /home/boole/autonomous-robots/HW3/build/ar_hw3/build/lib/ar_hw3/__init__.py -> /home/boole/autonomous-robots/HW3/install/ar_hw3/lib/python3.10/site-packages/ar_hw3
+[1.428s] byte-compiling /home/boole/autonomous-robots/HW3/install/ar_hw3/lib/python3.10/site-packages/ar_hw3/turtle_spiral.py to turtle_spiral.cpython-310.pyc
+[1.429s] byte-compiling /home/boole/autonomous-robots/HW3/install/ar_hw3/lib/python3.10/site-packages/ar_hw3/turtle_circle.py to turtle_circle.cpython-310.pyc
+[1.430s] byte-compiling /home/boole/autonomous-robots/HW3/install/ar_hw3/lib/python3.10/site-packages/ar_hw3/__init__.py to __init__.cpython-310.pyc
+[1.430s] running install_data
+[1.430s] creating /home/boole/autonomous-robots/HW3/install/ar_hw3/share/ament_index
+[1.431s] creating /home/boole/autonomous-robots/HW3/install/ar_hw3/share/ament_index/resource_index
+[1.431s] creating /home/boole/autonomous-robots/HW3/install/ar_hw3/share/ament_index/resource_index/packages
+[1.431s] copying resource/ar_hw3 -> /home/boole/autonomous-robots/HW3/install/ar_hw3/share/ament_index/resource_index/packages
+[1.431s] copying package.xml -> /home/boole/autonomous-robots/HW3/install/ar_hw3/share/ar_hw3
+[1.432s] running install_egg_info
+[1.434s] Copying ../../build/ar_hw3/ar_hw3.egg-info to /home/boole/autonomous-robots/HW3/install/ar_hw3/lib/python3.10/site-packages/ar_hw3-0.0.0-py3.10.egg-info
+[1.435s] running install_scripts
+[1.465s] Installing turtle_circle script to /home/boole/autonomous-robots/HW3/install/ar_hw3/lib/ar_hw3
+[1.466s] Installing turtle_spiral script to /home/boole/autonomous-robots/HW3/install/ar_hw3/lib/ar_hw3
+[1.466s] writing list of installed files to '/home/boole/autonomous-robots/HW3/build/ar_hw3/install.log'
+[1.498s] Invoked command in '/home/boole/autonomous-robots/HW3/src/ar_hw3' returned '0': PYTHONPATH=/home/boole/autonomous-robots/HW3/build/ar_hw3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/boole/autonomous-robots/HW3/install/ar_hw3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ar_hw3 build --build-base /home/boole/autonomous-robots/HW3/build/ar_hw3/build install --record /home/boole/autonomous-robots/HW3/build/ar_hw3/install.log --single-version-externally-managed install_data
