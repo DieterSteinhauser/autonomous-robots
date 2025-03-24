@@ -1,0 +1,15 @@
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_msgs/share/ament_index/resource_index/package_run_dependencies/clearpath_msgs
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_msgs/share/ament_index/resource_index/parent_prefix_path/clearpath_msgs
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_msgs/share/clearpath_msgs/environment/ament_prefix_path.sh
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_msgs/share/clearpath_msgs/environment/ament_prefix_path.dsv
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_msgs/share/clearpath_msgs/environment/path.sh
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_msgs/share/clearpath_msgs/environment/path.dsv
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_msgs/share/clearpath_msgs/local_setup.bash
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_msgs/share/clearpath_msgs/local_setup.sh
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_msgs/share/clearpath_msgs/local_setup.zsh
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_msgs/share/clearpath_msgs/local_setup.dsv
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_msgs/share/clearpath_msgs/package.dsv
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_msgs/share/ament_index/resource_index/packages/clearpath_msgs
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_msgs/share/clearpath_msgs/cmake/clearpath_msgsConfig.cmake
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_msgs/share/clearpath_msgs/cmake/clearpath_msgsConfig-version.cmake
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_msgs/share/clearpath_msgs/package.xml

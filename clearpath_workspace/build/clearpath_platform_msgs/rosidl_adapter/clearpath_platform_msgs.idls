@@ -1,0 +1,10 @@
+/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_platform_msgs/rosidl_adapter/clearpath_platform_msgs:msg/Drive.idl
+/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_platform_msgs/rosidl_adapter/clearpath_platform_msgs:msg/DriveFeedback.idl
+/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_platform_msgs/rosidl_adapter/clearpath_platform_msgs:msg/Fans.idl
+/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_platform_msgs/rosidl_adapter/clearpath_platform_msgs:msg/Feedback.idl
+/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_platform_msgs/rosidl_adapter/clearpath_platform_msgs:msg/Lights.idl
+/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_platform_msgs/rosidl_adapter/clearpath_platform_msgs:msg/Power.idl
+/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_platform_msgs/rosidl_adapter/clearpath_platform_msgs:msg/RGB.idl
+/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_platform_msgs/rosidl_adapter/clearpath_platform_msgs:msg/Status.idl
+/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_platform_msgs/rosidl_adapter/clearpath_platform_msgs:msg/StopStatus.idl
+/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_platform_msgs/rosidl_adapter/clearpath_platform_msgs:srv/ConfigureMcu.idl

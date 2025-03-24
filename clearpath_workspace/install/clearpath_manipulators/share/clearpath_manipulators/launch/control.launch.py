@@ -1,0 +1,1 @@
+/home/newton/autonomous-robots/clearpath_workspace/src/clearpath_common/clearpath_manipulators/launch/control.launch.py

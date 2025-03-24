@@ -1,0 +1,51 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_manipulators
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/config/cartesian_limits.yaml
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/config/control.yaml
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/config/kinematics/arm.yaml
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/config/kinematics/gripper.yaml
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/config/kinematics/lift.yaml
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/config/planning/_ompl/defaults.yaml
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/config/planning/_ompl/planning.yaml
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/config/planning/chomp/planning.yaml
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/config/planning/pilz/defaults.yaml
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/config/planning/pilz/planning.yaml
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/config/planning/pipeline.yaml
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/config/planning_scene.yaml
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/config/trajectory_execution.yaml
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/launch/control.launch.py
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/launch/manipulators.launch.py
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/launch/moveit.launch.py
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/ament_index/resource_index/package_run_dependencies/clearpath_manipulators
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/ament_index/resource_index/parent_prefix_path/clearpath_manipulators
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/environment/ament_prefix_path.sh
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/environment/ament_prefix_path.dsv
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/environment/path.sh
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/environment/path.dsv
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/local_setup.bash
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/local_setup.sh
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/local_setup.zsh
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/local_setup.dsv
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/package.dsv
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/ament_index/resource_index/packages/clearpath_manipulators
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/cmake/clearpath_manipulatorsConfig.cmake
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/cmake/clearpath_manipulatorsConfig-version.cmake
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_manipulators/share/clearpath_manipulators/package.xml

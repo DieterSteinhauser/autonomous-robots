@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from clearpath_platform_msgs/msg/Lights.msg
+// generated code does not contain a copyright notice
+
+#include "clearpath_platform_msgs/msg/RGB.idl"
+
+module clearpath_platform_msgs {
+  module msg {
+    module Lights_Constants {
+      @verbatim (language="comment", text=
+        "Dingo 1.0 (D100)")
+      const uint8 D100_LIGHTS_REAR_LEFT = 0;
+      const uint8 D100_LIGHTS_FRONT_LEFT = 1;
+      const uint8 D100_LIGHTS_FRONT_RIGHT = 2;
+      const uint8 D100_LIGHTS_REAR_RIGHT = 3;
+      @verbatim (language="comment", text=
+        "Dingo 1.5 (D150)")
+      const uint8 D150_LIGHTS_REAR_LEFT = 0;
+      const uint8 D150_LIGHTS_FRONT_LEFT = 1;
+      const uint8 D150_LIGHTS_FRONT_RIGHT = 2;
+      const uint8 D150_LIGHTS_REAR_RIGHT = 3;
+      @verbatim (language="comment", text=
+        "Ridgeback (R100)")
+      const uint8 R100_LIGHTS_FRONT_PORT_UPPER = 0;
+      const uint8 R100_LIGHTS_FRONT_PORT_LOWER = 1;
+      const uint8 R100_LIGHTS_FRONT_STARBOARD_UPPER = 2;
+      const uint8 R100_LIGHTS_FRONT_STARBOARD_LOWER = 3;
+      const uint8 R100_LIGHTS_REAR_PORT_UPPER = 4;
+      const uint8 R100_LIGHTS_REAR_PORT_LOWER = 5;
+      const uint8 R100_LIGHTS_REAR_STARBOARD_UPPER = 6;
+      const uint8 R100_LIGHTS_REAR_STARBOARD_LOWER = 7;
+      @verbatim (language="comment", text=
+        "Warthog (W200)")
+      const uint8 W200_LIGHTS_FRONT_LEFT = 0;
+      const uint8 W200_LIGHTS_FRONT_RIGHT = 1;
+      const uint8 W200_LIGHTS_REAR_LEFT = 2;
+      const uint8 W200_LIGHTS_REAR_RIGHT = 3;
+    };
+    @verbatim (language="comment", text=
+      "Represents a command for the pairs of RGB body lights on a CPR robot.")
+    struct Lights {
+      sequence<clearpath_platform_msgs::msg::RGB> lights;
+    };
+  };
+};

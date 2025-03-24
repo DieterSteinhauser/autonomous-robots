@@ -1,0 +1,1 @@
+/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_platform_msgs/rosidl_typesupport_introspection_c/clearpath_platform_msgs/srv/detail/configure_mcu__rosidl_typesupport_introspection_c.h

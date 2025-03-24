@@ -1,0 +1,1 @@
+/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_platform_msgs/rosidl_cmake/srv/ConfigureMcu_Response.msg

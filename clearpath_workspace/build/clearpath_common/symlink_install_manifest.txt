@@ -1,0 +1,16 @@
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_common/share/clearpath_common/launch/platform.launch.py
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_common/share/ament_index/resource_index/package_run_dependencies/clearpath_common
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_common/share/ament_index/resource_index/parent_prefix_path/clearpath_common
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_common/share/clearpath_common/environment/ament_prefix_path.sh
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_common/share/clearpath_common/environment/ament_prefix_path.dsv
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_common/share/clearpath_common/environment/path.sh
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_common/share/clearpath_common/environment/path.dsv
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_common/share/clearpath_common/local_setup.bash
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_common/share/clearpath_common/local_setup.sh
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_common/share/clearpath_common/local_setup.zsh
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_common/share/clearpath_common/local_setup.dsv
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_common/share/clearpath_common/package.dsv
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_common/share/ament_index/resource_index/packages/clearpath_common
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_common/share/clearpath_common/cmake/clearpath_commonConfig.cmake
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_common/share/clearpath_common/cmake/clearpath_commonConfig-version.cmake
+/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_common/share/clearpath_common/package.xml

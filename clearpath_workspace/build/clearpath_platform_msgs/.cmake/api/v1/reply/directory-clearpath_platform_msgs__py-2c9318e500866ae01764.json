@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "clearpath_platform_msgs__py",
+		"source" : "/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_platform_msgs/clearpath_platform_msgs__py"
+	}
+}

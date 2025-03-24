@@ -1,0 +1,1 @@
+/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c

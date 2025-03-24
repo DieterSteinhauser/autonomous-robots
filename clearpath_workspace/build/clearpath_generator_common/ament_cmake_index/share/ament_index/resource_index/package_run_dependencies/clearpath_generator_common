@@ -1,0 +1,1 @@
+moveit_setup_srdf_plugins;clearpath_config;clearpath_control;clearpath_description;clearpath_manipulators;ament_lint_auto;ament_lint_common;ament_cmake_pytest

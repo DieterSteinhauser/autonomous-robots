@@ -1,0 +1,1 @@
+/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_manipulators/ament_cmake_core/clearpath_manipulatorsConfig.cmake

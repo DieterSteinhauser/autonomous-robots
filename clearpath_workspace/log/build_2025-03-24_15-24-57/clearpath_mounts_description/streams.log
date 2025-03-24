@@ -1,0 +1,62 @@
+[0.052s] Invoking command in '/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_mounts_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/newton/autonomous-robots/clearpath_workspace/src/clearpath_common/clearpath_mounts_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description
+[0.544s] -- The C compiler identification is GNU 11.4.0
+[0.544s] -- The CXX compiler identification is GNU 11.4.0
+[0.544s] -- Detecting C compiler ABI info
+[0.544s] -- Detecting C compiler ABI info - done
+[0.545s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.545s] -- Detecting C compile features
+[0.545s] -- Detecting C compile features - done
+[0.545s] -- Detecting CXX compiler ABI info
+[0.636s] -- Detecting CXX compiler ABI info - done
+[0.666s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.666s] -- Detecting CXX compile features
+[0.667s] -- Detecting CXX compile features - done
+[0.675s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.079s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.229s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.429s] -- Configuring done
+[1.443s] -- Generating done
+[1.449s] -- Build files have been written to: /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_mounts_description
+[1.470s] Invoked command in '/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_mounts_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/newton/autonomous-robots/clearpath_workspace/src/clearpath_common/clearpath_mounts_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description
+[1.473s] Invoking command in '/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_mounts_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_mounts_description -- -j8 -l8
+[1.559s] Invoked command in '/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_mounts_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_mounts_description -- -j8 -l8
+[1.579s] Invoking command in '/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_mounts_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_mounts_description
+[1.605s] -- Install configuration: ""
+[1.607s] -- Execute custom install script
+[1.607s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/disk.stl
+[1.626s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/fath_pivot_mount.dae
+[1.647s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/fath_pivot_mount_base.dae
+[1.666s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/bracket_extension_20.stl
+[1.685s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/bracket_extension_40.stl
+[1.710s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/bracket_extension_60.stl
+[1.732s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/bracket_extension_80.stl
+[1.748s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/bracket_horizontal.stl
+[1.765s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/bracket_horizontal_large.stl
+[1.797s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/bracket_vertical.stl
+[1.814s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/riser_1x7.stl
+[1.835s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/riser_8x7.stl
+[1.850s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/sick_inverted.dae
+[1.865s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/sick_upright.stl
+[1.884s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/disk.urdf.xacro
+[1.902s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/fath_pivot.urdf.xacro
+[1.916s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/pacs/bracket.urdf.xacro
+[1.933s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/pacs/riser.urdf.xacro
+[1.953s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/pacs/riser_leg.urdf.xacro
+[1.975s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/post.urdf.xacro
+[1.993s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/sick.urdf.xacro
+[2.012s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/ament_index/resource_index/package_run_dependencies/clearpath_mounts_description
+[2.037s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/ament_index/resource_index/parent_prefix_path/clearpath_mounts_description
+[2.059s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/environment/ament_prefix_path.sh
+[2.072s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/environment/ament_prefix_path.dsv
+[2.102s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/environment/path.sh
+[2.122s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/environment/path.dsv
+[2.145s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/local_setup.bash
+[2.185s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/local_setup.sh
+[2.203s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/local_setup.zsh
+[2.226s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/local_setup.dsv
+[2.262s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/package.dsv
+[2.284s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/ament_index/resource_index/packages/clearpath_mounts_description
+[2.307s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/cmake/clearpath_mounts_descriptionConfig.cmake
+[2.321s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/cmake/clearpath_mounts_descriptionConfig-version.cmake
+[2.337s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_mounts_description/share/clearpath_mounts_description/package.xml
+[2.372s] Invoked command in '/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_mounts_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_mounts_description

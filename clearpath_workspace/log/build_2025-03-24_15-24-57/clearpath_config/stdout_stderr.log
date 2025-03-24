@@ -1,0 +1,57 @@
+running develop
+running egg_info
+creating clearpath_config.egg-info
+writing clearpath_config.egg-info/PKG-INFO
+writing dependency_links to clearpath_config.egg-info/dependency_links.txt
+writing requirements to clearpath_config.egg-info/requires.txt
+writing top-level names to clearpath_config.egg-info/top_level.txt
+writing manifest file 'clearpath_config.egg-info/SOURCES.txt'
+package init file 'clearpath_config/manipulators/types/__init__.py' not found (or not a regular file)
+reading manifest file 'clearpath_config.egg-info/SOURCES.txt'
+writing manifest file 'clearpath_config.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/lib/python3.10/site-packages/clearpath-config.egg-link (link to .)
+
+Installed /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config
+running symlink_data
+creating /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/ament_index
+creating /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/ament_index/resource_index
+creating /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/ament_index/resource_index/packages
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/resource/clearpath_config -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/ament_index/resource_index/packages
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/package.xml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config
+creating /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/a200/a200_default.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/a200/a200_dual_laser.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/a200/a200_sample.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/a200/a200_outline.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/a200/a200_velodyne.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/j100/j100_default.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/j100/j100_dual_laser.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/j100/j100_sample.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/j100/j100_velodyne.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/j100/j100_outline.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/j100/j100_microstrain_gq7.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/w200/w200_default.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/w200/w200_outline.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/w200/w200_dual_laser.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/w200/w200_velodyne.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/dd150/dd150_outline.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/dd150/dd150_dual_laser.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/dd150/dd150_velodyne.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/dd150/dd150_default.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/dd100/dd100_dual_laser.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/dd100/dd100_velodyne.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/dd100/dd100_default.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/dd100/dd100_outline.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/r100/r100_outline.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/r100/r100_dual_laser.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/r100/r100_dual_laser_hokuyo.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/r100/r100_default.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/do100/do100_outline.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/do100/do100_default.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/do100/do100_velodyne.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/do100/do100_dual_laser.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/do150/do150_dual_laser.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/do150/do150_outline.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/do150/do150_velodyne.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample
+symbolically linking /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_config/clearpath_config/sample/do150/do150_default.yaml -> /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_config/share/clearpath_config/sample

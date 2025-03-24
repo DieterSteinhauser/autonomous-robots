@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from clearpath_platform_msgs/msg/RGB.msg
+// generated code does not contain a copyright notice
+
+
+module clearpath_platform_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Represents the intensity of a single RGB LED, either reported or commanded." "\n"
+      "Each channel is limited to a range of [0, 255]")
+    struct RGB {
+      uint8 red;
+
+      uint8 green;
+
+      uint8 blue;
+    };
+  };
+};

@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from clearpath_platform_msgs/msg/Fans.msg
+// generated code does not contain a copyright notice
+
+
+module clearpath_platform_msgs {
+  module msg {
+    module Fans_Constants {
+      @verbatim (language="comment", text=
+        "Ridgeback (R100)")
+      const uint8 R100_EQUIPMENT_BAY_INTAKE = 0;
+      const uint8 R100_EQUIPMENT_BAY_EXHAUST = 1;
+      const uint8 R100_CHARGER_BAY_INTAKE = 2;
+      const uint8 R100_CHARGER_BAY_EXHAUST = 3;
+      const uint8 R100_USER_BAY_INTAKE = 4;
+      const uint8 R100_USER_BAY_EXHAUST = 5;
+      @verbatim (language="comment", text=
+        "Possible fan states")
+      const uint8 FAN_OFF = 0;
+      const uint8 FAN_ON_HIGH = 1;
+      const uint8 FAN_ON_LOW = 2;
+    };
+    @verbatim (language="comment", text=
+      "Location of fans.")
+    struct Fans {
+      @verbatim (language="comment", text=
+        "Control for the fans")
+      sequence<uint8> fans;
+    };
+  };
+};

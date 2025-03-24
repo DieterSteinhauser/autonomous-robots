@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from clearpath_platform_msgs/srv/ConfigureMcu.srv
+// generated code does not contain a copyright notice
+
+
+module clearpath_platform_msgs {
+  module srv {
+    struct ConfigureMcu_Request {
+      @verbatim (language="comment", text=
+        "ROS_DOMAIN_ID")
+      uint8 domain_id;
+
+      @verbatim (language="comment", text=
+        "Robot namespace")
+      string robot_namespace;
+    };
+    struct ConfigureMcu_Response {
+      @verbatim (language="comment", text=
+        "Indicate successful update")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Error/Success message")
+      string message;
+    };
+  };
+};

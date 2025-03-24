@@ -1,0 +1,60 @@
+[0.529s] Invoking command in '/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_customization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/newton/autonomous-robots/clearpath_workspace/src/clearpath_common/clearpath_customization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization
+[1.434s] -- The C compiler identification is GNU 11.4.0
+[1.434s] -- The CXX compiler identification is GNU 11.4.0
+[1.435s] -- Detecting C compiler ABI info
+[1.435s] -- Detecting C compiler ABI info - done
+[1.435s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.435s] -- Detecting C compile features
+[1.435s] -- Detecting C compile features - done
+[1.435s] -- Detecting CXX compiler ABI info
+[1.435s] -- Detecting CXX compiler ABI info - done
+[1.436s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.436s] -- Detecting CXX compile features
+[1.436s] -- Detecting CXX compile features - done
+[1.436s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.643s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.794s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.871s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.083s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.087s] -- Added test 'lint_cmake' to check CMake code style
+[2.091s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.095s] -- Added test 'xmllint' to check XML markup files
+[2.101s] -- Configuring done
+[2.112s] -- Generating done
+[2.121s] -- Build files have been written to: /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_customization
+[2.141s] Invoked command in '/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_customization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/newton/autonomous-robots/clearpath_workspace/src/clearpath_common/clearpath_customization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization
+[2.142s] Invoking command in '/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_customization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_customization -- -j8 -l8
+[2.331s] Invoked command in '/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_customization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_customization -- -j8 -l8
+[2.332s] Invoking command in '/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_customization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_customization
+[2.645s] -- Install configuration: ""
+[2.645s] -- Execute custom install script
+[2.646s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/lib/clearpath_customization/generate_bringup
+[2.646s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/lib/clearpath_customization/generate_description
+[2.646s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/project_bringup/CMakeLists.txt
+[2.646s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/project_bringup/LICENSE
+[2.646s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/project_bringup/config/device.yaml
+[2.646s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/project_bringup/launch/device.launch.py
+[2.646s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/project_bringup/launch/project_bringup.launch.py
+[2.647s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/project_bringup/package.xml
+[2.647s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/project_description/CMakeLists.txt
+[2.647s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/project_description/LICENSE
+[2.647s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/project_description/meshes/donut.stl
+[2.647s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/project_description/package.xml
+[2.647s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/project_description/urdf/donut.urdf.xacro
+[2.647s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/project_description/urdf/project_description.urdf.xacro
+[2.648s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/ament_index/resource_index/package_run_dependencies/clearpath_customization
+[2.648s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/ament_index/resource_index/parent_prefix_path/clearpath_customization
+[2.649s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/environment/ament_prefix_path.sh
+[2.662s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/environment/ament_prefix_path.dsv
+[2.689s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/environment/path.sh
+[2.709s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/environment/path.dsv
+[2.723s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/local_setup.bash
+[2.738s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/local_setup.sh
+[2.751s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/local_setup.zsh
+[2.763s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/local_setup.dsv
+[2.777s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/package.dsv
+[2.797s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/ament_index/resource_index/packages/clearpath_customization
+[2.808s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/cmake/clearpath_customizationConfig.cmake
+[2.824s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/cmake/clearpath_customizationConfig-version.cmake
+[2.840s] -- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_customization/share/clearpath_customization/package.xml
+[2.868s] Invoked command in '/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_customization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_customization

@@ -1,0 +1,155 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/newton/autonomous-robots/clearpath_workspace/build/clearpath_platform_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/launch/description.launch.py
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/accessories/lidar_mount.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/accessories/lms1xx_mount.dae
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/accessories/lms1xx_mount.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/300_mm_sensor_arch.dae
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/300_mm_sensor_arch.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/510_mm_sensor_arch.dae
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/510_mm_sensor_arch.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/bumper.dae
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/bumper2.dae
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/bumper3.dae
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/bumper_extension.dae
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/large_top_plate.dae
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/large_top_plate_collision.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/pacs_top_plate.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/top_plate.dae
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/top_plate.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/user_rail.dae
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/user_rail.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/base_link.dae
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/base_link.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/top_chassis.dae
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/top_chassis.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/wheel.dae
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/wheel.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/dd100/attachments/pacs_top_plate.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/dd100/chassis.dae
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/dd100/chassis_collision.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/dd100/wheel.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/do100/mecanum_wheel.dae
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/do100/old_mecanum_wheel.dae
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/do100/omni_chassis.dae
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/do100/omni_chassis_collision.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/attachments/ark_enclosure.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/attachments/default_fender.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/attachments/sensor_fender.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/bridge_plate.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/camera_beam.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/camera_bracket.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/j100_base.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/j100_wheel.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/kinect_mount.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/sick_lms1xx_inverted_bracket.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/sick_lms1xx_upright_bracket.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/stereo_camera_beam.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/stereo_camera_bracket.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/velodyne_tower.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/wibotic_bumper.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/attachments/hams_mount.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/attachments/hams_top.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/attachments/leg.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/attachments/tower_body.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/attachments/tower_body_collision.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/attachments/tower_shoulder.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/attachments/tower_shoulder_collision.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/axle.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/body-collision.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/body.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/end-cover.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/lights.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/rocker.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/side-cover.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/top.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/wheel.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/arm-mount-plate.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/bulkhead-collision.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/bulkhead.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/chassis-collision.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/chassis.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/diff-link.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/e-stop.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/fenders.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/generator.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/light.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/rocker.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/susp-link.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/tracks.dae
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/tracks_collision.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/wheel.stl
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/a200/a200.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/a200/attachments/bumper.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/a200/attachments/sensor_arch.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/a200/attachments/top_plate.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/a200/wheels/wheel.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/common.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/dd100/attachments/top_plate.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/dd100/dd100.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/dd100/wheels/wheel.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/dd150/attachments/top_plate.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/dd150/dd150.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/dd150/wheels/wheel.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/do100/attachments/top_plate.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/do100/do100.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/do100/wheels/wheel.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/do150/attachments/top_plate.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/do150/do150.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/generic/gazebo.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/j100/attachments/fender.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/j100/attachments/top_plate.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/j100/j100.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/j100/wheels/wheel.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/links/box.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/links/cylinder.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/links/frame.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/links/mesh.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/links/sphere.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/r100/attachments/fams.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/r100/attachments/hams.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/r100/attachments/legs.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/r100/attachments/tower.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/r100/r100.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/r100/rocker.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/r100/wheels/wheel.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/w200/attachments/arm_plate.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/w200/attachments/bulkhead.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/w200/attachments/generator.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/w200/diff_unit.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/w200/w200.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/w200/wheels/track.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/urdf/w200/wheels/wheel.urdf.xacro
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/ament_index/resource_index/package_run_dependencies/clearpath_platform_description
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/ament_index/resource_index/parent_prefix_path/clearpath_platform_description
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/environment/path.sh
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/environment/path.dsv
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/local_setup.bash
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/local_setup.sh
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/local_setup.zsh
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/local_setup.dsv
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/package.dsv
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/ament_index/resource_index/packages/clearpath_platform_description
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/cmake/clearpath_platform_descriptionConfig.cmake
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/cmake/clearpath_platform_descriptionConfig-version.cmake
+-- Symlinking: /home/newton/autonomous-robots/clearpath_workspace/install/clearpath_platform_description/share/clearpath_platform_description/package.xml

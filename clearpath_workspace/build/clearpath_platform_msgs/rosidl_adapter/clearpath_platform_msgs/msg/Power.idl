@@ -1,0 +1,109 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from clearpath_platform_msgs/msg/Power.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module clearpath_platform_msgs {
+  module msg {
+    module Power_Constants {
+      @verbatim (language="comment", text=
+        "AC Power")
+      const int8 NOT_APPLICABLE = -1;
+      @verbatim (language="comment", text=
+        "Voltage rails, in volts" "\n"        "Averaged over the message period" "\n"        "Jackal (J100)")
+      const uint8 J100_MEASURED_BATTERY = 0;
+      const uint8 J100_MEASURED_5V = 1;
+      const uint8 J100_MEASURED_12V = 2;
+      @verbatim (language="comment", text=
+        "Dingo 1.0 (D100)")
+      const uint8 D100_MEASURED_BATTERY = 0;
+      const uint8 D100_MEASURED_5V = 1;
+      const uint8 D100_MEASURED_12V = 2;
+      @verbatim (language="comment", text=
+        "Dingo 1.5 (D150)")
+      const uint8 D150_MEASURED_BATTERY = 0;
+      const uint8 D150_MEASURED_5V = 1;
+      const uint8 D150_MEASURED_12V = 2;
+      @verbatim (language="comment", text=
+        "Warthog (W200)")
+      const uint8 W200_MEASURED_BATTERY = 0;
+      const uint8 W200_MEASURED_12V = 1;
+      const uint8 W200_MEASURED_24V = 2;
+      const uint8 W200_MEASURED_48V = 3;
+      @verbatim (language="comment", text=
+        "Ridgeback (R100)")
+      const uint8 R100_MEASURED_BATTERY = 0;
+      const uint8 R100_MEASURED_5V = 1;
+      const uint8 R100_MEASURED_12V = 2;
+      const uint8 R100_MEASURED_INVERTER = 3;
+      const uint8 R100_MEASURED_FRONT_AXLE = 4;
+      const uint8 R100_MEASURED_REAR_AXLE = 5;
+      const uint8 R100_MEASURED_LIGHT = 6;
+      @verbatim (language="comment", text=
+        "Husky (A200)")
+      const uint8 A200_BATTERY_VOLTAGE = 0;
+      const uint8 A200_LEFT_DRIVER_VOLTAGE = 1;
+      const uint8 A200_RIGHT_DRIVER_VOLTAGE = 2;
+      const uint8 A200_VOLTAGES_SIZE = 3;
+      @verbatim (language="comment", text=
+        "Current senses available on platform, in amps." "\n"        "Averaged over the message period" "\n"        "Jackal (J100)")
+      const uint8 J100_TOTAL_CURRENT = 0;
+      const uint8 J100_COMPUTER_CURRENT = 1;
+      const uint8 J100_DRIVE_CURRENT = 2;
+      const uint8 J100_USER_CURRENT = 3;
+      @verbatim (language="comment", text=
+        "Dingo 1.0 (D100)")
+      const uint8 D100_TOTAL_CURRENT = 0;
+      const uint8 D100_COMPUTER_CURRENT = 1;
+      @verbatim (language="comment", text=
+        "Dingo 1.5 (D150)")
+      const uint8 D150_TOTAL_CURRENT = 0;
+      const uint8 D150_COMPUTER_CURRENT = 1;
+      @verbatim (language="comment", text=
+        "Warthog (W200)")
+      const uint8 W200_TOTAL_CURRENT = 0;
+      const uint8 W200_COMPUTER_CURRENT = 1;
+      const uint8 W200_12V_CURRENT = 2;
+      const uint8 W200_24V_CURRENT = 3;
+      @verbatim (language="comment", text=
+        "Ridgeback (R100)")
+      const uint8 R100_TOTAL_CURRENT = 0;
+      @verbatim (language="comment", text=
+        "Husky (A200)")
+      const uint8 A200_MCU_AND_USER_PORT_CURRENT = 0;
+      const uint8 A200_LEFT_DRIVER_CURRENT = 1;
+      const uint8 A200_RIGHT_DRIVER_CURRENT = 2;
+      const uint8 A200_CURRENTS_SIZE = 3;
+    };
+    @verbatim (language="comment", text=
+      "Robot Power readings")
+    struct Power {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Indicates if AC power is connected.")
+      int8 shore_power_connected;
+
+      @verbatim (language="comment", text=
+        "Indicates if battery is connected.")
+      int8 battery_connected;
+
+      @verbatim (language="comment", text=
+        "Indicates if the 12V user power is good.")
+      int8 power_12v_user_nominal;
+
+      @verbatim (language="comment", text=
+        "Indicates if a charger is connected.")
+      int8 charger_connected;
+
+      @verbatim (language="comment", text=
+        "Indicates if charging is complete.")
+      int8 charging_complete;
+
+      sequence<float> measured_voltages;
+
+      sequence<float> measured_currents;
+    };
+  };
+};

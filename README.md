@@ -25,11 +25,12 @@ Update the system
 sudo apt update && sudo apt upgrade -y
 ```
 
-Allow remote SSH connections
+## Allow remote SSH connections
 ```
 sudo apt install openssh-server
 ```
 
+## Allow RDP connections
 Configure the RDP settings in the GUI. You will also need to set the computer to never sleep or lock.
 
 uncomment `waylandenable=False` in this file for RDP to work properly.
@@ -37,14 +38,20 @@ uncomment `waylandenable=False` in this file for RDP to work properly.
 sudo nano /etc/gdm3/custom.conf
 ```
 
-Install the NVIDIA drivers
+## Install the NVIDIA drivers
 ```
 sudo apt remove --purge '^nvidia-.*'
-sudo apt install nvidia-driver
-sudo apt install nvidia-utils
+sudo apt install ubuntu-drivers
 sudo apt update && sudo apt upgrade -y
 
 ```
+
+alternatives for the ubuntu drivers portion if the previous method did not work.
+```
+sudo apt install nvidia-driver
+sudo apt install nvidia-utils
+```
+
 If all went well, reboot the machine
 ```
 sudo reboot
@@ -207,4 +214,87 @@ e.g.
 `ros2 run ar_hw1 face_detector`
 
 
+# Gazebo Fortress Installation
 
+https://gazebosim.org/docs/fortress/install_ubuntu/
+
+install some necessary tools
+```
+sudo apt-get update
+sudo apt-get install lsb-release gnupg
+```
+
+install ingnition (gazebo) fortress
+```
+sudo curl https://packages.osrfoundation.org/gazebo.gpg --output /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/gazebo-stable.list > /dev/null
+sudo apt-get update
+sudo apt-get install ignition-fortress
+```
+
+All libraries and dependencies are installed. you can use gazebo by executing the following command.
+
+```
+ign gazebo
+```
+
+!!! NOTE NOTE
+
+    Gazebo Fortress uses "ign gazebo" instead of "gz sim" to perform commands
+
+# Gazebo Fortress First Time Run
+
+```
+gz sim shapes.sdf  # Fortress uses "ign gazebo" instead of "gz sim"
+ign gazebo shapes.sdf 
+```
+
+
+# Installing the Clearpath Simulator
+
+https://docs.clearpathrobotics.com/docs/ros/tutorials/simulator/install/
+
+```
+sudo apt-get update
+sudo apt-get install ros-humble-clearpath-simulator
+```
+
+Create a workspace on the computer
+
+- clearpath_ws
+    - src
+
+```
+mkdir ~/clearpath_ws/src -p
+```
+
+Import Dependencies
+
+```
+source /opt/ros/humble/setup.bash
+sudo apt install python3-vcstool
+```
+
+```
+cd ~/clearpath_workspace
+```
+
+```
+wget https://raw.githubusercontent.com/clearpathrobotics/clearpath_simulator/main/dependencies.repos
+vcs import src < dependencies.repos
+rosdep install -r --from-paths src -i -y
+```
+
+Build the packages 
+
+```
+colcon build --symlink-install
+```
+
+# Launching the Simulator
+
+https://docs.clearpathrobotics.com/docs/ros/tutorials/simulator/simulate
+
+```
+ros2 launch clearpath_gz simulation.launch.py
+```

@@ -1,0 +1,1 @@
+/home/newton/autonomous-robots/clearpath_workspace/src/clearpath_common/clearpath_generator_common/clearpath_generator_common/common.py
