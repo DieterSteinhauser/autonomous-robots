@@ -1,1 +1,0 @@
-/home/newton/autonomous-robots/clearpath_workspace/src/clearpath_config/setup.py

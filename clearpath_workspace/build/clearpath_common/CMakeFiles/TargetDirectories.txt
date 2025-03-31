@@ -1,8 +1,0 @@
-/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_common/CMakeFiles/uninstall.dir
-/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_common/CMakeFiles/clearpath_common_uninstall.dir
-/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_common/CMakeFiles/test.dir
-/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_common/CMakeFiles/edit_cache.dir
-/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_common/CMakeFiles/rebuild_cache.dir
-/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_common/CMakeFiles/list_install_components.dir
-/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_common/CMakeFiles/install.dir
-/home/newton/autonomous-robots/clearpath_workspace/build/clearpath_common/CMakeFiles/install/local.dir

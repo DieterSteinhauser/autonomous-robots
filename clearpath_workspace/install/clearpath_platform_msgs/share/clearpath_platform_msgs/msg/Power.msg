@@ -1,1 +1,0 @@
-/home/newton/autonomous-robots/clearpath_workspace/src/clearpath_msgs/clearpath_platform_msgs/msg/Power.msg

@@ -1,1 +1,0 @@
-/home/newton/autonomous-robots/clearpath_workspace/install/clearpath_generator_common/lib/clearpath_generator_common/moveit_collision_updater

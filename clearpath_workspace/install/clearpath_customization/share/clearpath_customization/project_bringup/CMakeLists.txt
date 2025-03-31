@@ -1,1 +1,0 @@
-/home/newton/autonomous-robots/clearpath_workspace/src/clearpath_common/clearpath_customization/project_bringup/CMakeLists.txt
