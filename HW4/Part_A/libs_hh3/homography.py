@@ -10,6 +10,14 @@ def computeHomography(Us, Vs):
     aList = []
     
     # TODO: your code
+    for index in range(len(Us)):
+        
+        x1, y1 = Us[index]
+        x2, y2 = Vs[index]
+        
+        aList.extend([[x1,y1,1, 0, 0, 0, -x2*x1, -x2*y1, -x2],
+                      [0, 0, 0, x1, y1, 1, -y2*x1, -y2*y1, -y2]
+        ])
 
     matrixA = np.matrix(aList)
 
@@ -30,7 +38,8 @@ def warp_and_augment(im_logo, im_dst, H):
     """
     imw, imh = im_dst.shape[1], im_dst.shape[0]
     im_warped = cv2.warpPerspective(im_logo, H, (imw, imh), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_TRANSPARENT)
-    # get mask for augmented image
+    
+    # # get mask for augmented image
     mask = np.array(np.nonzero(im_warped))
     im_out = im_dst.copy()
     for n in range(mask.shape[1]):
@@ -39,4 +48,14 @@ def warp_and_augment(im_logo, im_dst, H):
 
     # There are better ways to do this: 
     # TODO: for Bonus +5 point
+    # --------------------------------
+    
+    # # Create a mask using the alpha channel of the warped logo
+    # mask = im_warped[:, :, 3] > 0  
+
+    # # Apply the mask to the destination image
+    # im_out = cv2.bitwise_and(im_dst, im_dst, mask=cv2.bitwise_not(mask))
+    # im_out = cv2.bitwise_or(im_out, im_warped)
+    
+    
     return im_warped, im_out
