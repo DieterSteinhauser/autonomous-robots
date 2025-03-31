@@ -4,6 +4,7 @@ University Of Florida
 """
 
 import numpy as np
+import gc
 
 class Simulation:
     def __init__(self, map_data):
@@ -78,7 +79,7 @@ class Simulation:
         Returns: new heading after rotating 1 degree clockwise
         '''
         # TODO: your code here
-    
+        return (heading + (np.pi/180)) % (2*np.pi)     
 
 
     def distance(self, x, y, xt, yt):
@@ -153,6 +154,25 @@ class Simulation:
         Returns: sign of the point w.r.t the m-line
         '''
         # TODO: your code
+        
+        # calculate the slope between the inital and final points
+        m = self.set_heading(x1, y1, xt, yt)
+        
+        # calculate the slope between the current position and the final point
+        n = self.set_heading(x, y, xt, yt)
+
+        # calculate the sign of the point w.r.t the m-line, provide some tolerance for comparing the slopes.
+        if abs(m - n) <= 1e-2:
+        # if m == n:
+            # gc.collect()
+            return 0
+        elif m > n:
+            # gc.collect()
+            return -1
+        else:
+            # gc.collect()
+            return 1
+        
 
    
     

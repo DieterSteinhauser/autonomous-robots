@@ -30,14 +30,18 @@ def computeHomography(Us, Vs):
     H = (1/H.item(8)) * H
     return H
 
-
 def warp_and_augment(im_logo, im_dst, H):
     """
     Given logo image, destination image, and the homography
     Find the warped final output
     """
     imw, imh = im_dst.shape[1], im_dst.shape[0]
-    im_warped = cv2.warpPerspective(im_logo, H, (imw, imh), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_TRANSPARENT)
+    
+    # Old version
+    # im_warped = cv2.warpPerspective(im_logo, H, (imw, imh), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_TRANSPARENT)
+    
+    # Improved Version
+    im_warped = cv2.warpPerspective(im_logo, H, (imw, imh), flags=cv2.INTER_LINEAR, borderValue=(0, 0, 0, 0)) 
     
     # # get mask for augmented image
     mask = np.array(np.nonzero(im_warped))
@@ -46,16 +50,4 @@ def warp_and_augment(im_logo, im_dst, H):
         i, j, k = mask[0, n], mask[1, n], mask[2, n]
         im_out[i, j, k] = im_warped[i, j, k]
 
-    # There are better ways to do this: 
-    # TODO: for Bonus +5 point
-    # --------------------------------
-    
-    # # Create a mask using the alpha channel of the warped logo
-    # mask = im_warped[:, :, 3] > 0  
-
-    # # Apply the mask to the destination image
-    # im_out = cv2.bitwise_and(im_dst, im_dst, mask=cv2.bitwise_not(mask))
-    # im_out = cv2.bitwise_or(im_out, im_warped)
-    
-    
     return im_warped, im_out

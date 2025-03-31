@@ -2,7 +2,7 @@
 EEL 4930/5934: Autonomous Robots
 University Of Florida
 """
-
+import gc
 import numpy as np
 import matplotlib.pyplot as plt
 import argparse
@@ -40,20 +40,51 @@ def run_bug2(sim, vis, origin, destination, max_iterations=10000):
     x, y = origin
     xt, yt = destination
     heading = sim.set_heading(x, y, xt, yt)
+    x1 = x
+    y1 = y
     print(f"starting simulation with origin: {origin}, destination: {destination}")
 
     for _ in range(max_iterations):  # Prevent infinite loops
+        
         if (x, y) == (xt, yt):
             print("Reached the destination!")
             break
 
-        """
-            # TODO: your code for Bug2 will go here
-            # hint: You will need to implement one more function in the simulator: sim.mline_crossing
-        """
+        # State 0: Go to Destination
+        if STATE == 0:
+            heading = sim.set_heading(x, y, xt, yt)
+            
+            # navigate towards the destination if the heading is navigable
+            if sim.navigability(x, y, heading):
+                x, y = sim.move_forward(x, y, heading)
+                
+            # change states
+            else:
+                STATE = 1
+                print(f"STATE switched to: {state_dict[STATE]}")
 
+        # State 1: Follow the Wall until the M-line is crossed
+        elif STATE == 1:
+            
+            # follow the boundary
+            (x_new, y_new), heading = sim.follow_boundary(x, y, heading)
+            x, y = (x_new,  y_new)
+            # x, y = x_new,  y_new
+            
+            mline = sim.mline_crossing(x1, y1, xt, yt, x, y)
+            open_path = sim.navigability(x, y, heading)
+            # print(f'M-line: {mline}')
+            # Change the state to zero if the m-line is crossed and there is an open path to the destination.
+            if mline == 0 and open_path is True:
+                STATE = 0
+                print(f"STATE switched to: {state_dict[STATE]}")
+                
+            
         # Update visualization
         vis.update_map(x, y)
+        
+        # collect garbage
+        # gc.collect()
 
         # Check for exit condition
         if vis.break_loop:

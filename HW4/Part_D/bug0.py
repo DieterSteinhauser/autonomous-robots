@@ -47,12 +47,38 @@ def run_bug0(sim, vis, origin, destination, max_iterations=1000):
         if (x, y) == (xt, yt):
             print("Reached the destination!")
             break
+         
+        if STATE == 0:  # Go to destination
+            heading = sim.set_heading(x, y, xt, yt)
+            
+            # navigate towards the destination if the heading is navigable
+            if sim.navigability(x, y, heading):
+                x_new, y_new = sim.move_forward(x, y, heading)
+                x, y = x_new, y_new
+                
+            # change states
+            else:
+                STATE = 1
+                print(f"STATE switched to: {state_dict[STATE]}")
 
-        """
-            # TODO: your code for Bug0 will go here
-            # hint: You will need to implement one more function in the simulator: sim.rotate
-        """
-
+        elif STATE == 1:  # Follow Wall
+            
+            # Rotate the robot until it reaches a new heading that is navigable parallel to the wall
+            front_angle = heading
+            new_heading = heading
+            
+            while not sim.navigability(x, y, new_heading, n_steps=4):
+                new_heading = sim.rotate(new_heading)
+                
+            # Move foward on the new heading.
+            x_new, y_new = sim.move_forward(x, y, new_heading)
+            x, y = x_new, y_new
+            
+            # if a direct path is now available, change state to 0.
+            if sim.navigability(x, y, front_angle):
+                STATE = 0
+                print(f"STATE switched to: {state_dict[STATE]}")
+            
         # Update visualization
         vis.update_map(x, y)
 
