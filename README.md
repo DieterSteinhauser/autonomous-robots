@@ -276,9 +276,10 @@ sudo apt install python3-vcstool
 ```
 
 ```
+cd ~/clearpath_ws
 cd ~/clearpath_workspace
 ```
-
+cl
 ```
 wget https://raw.githubusercontent.com/clearpathrobotics/clearpath_simulator/main/dependencies.repos
 vcs import src < dependencies.repos
